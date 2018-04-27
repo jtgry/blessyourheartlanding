@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section class="home-banner" style="background-image:linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.85)), url(/images/interior1.jpg);">
+  <div class="vertical">
+    <div class="home-banner-content">
+      <div class="container">
+        <img src="/images/blessyourheart-banner.svg" class="home-banner-logo" alt="Welcome to {{ .Title }}">
+      </div>
+      <div class="container">
+        <a href="https://www.google.com/maps/place/Bless+Your+Heart+of+Alabama/@32.635936,-86.0372477,17z/data=!4m12!1m6!3m5!1s0x888c3d94ffe49aad:0xb9cc7ce052b8a9a1!2sBless+Your+Heart+of+Alabama!8m2!3d32.635936!4d-86.035059!3m4!1s0x888c3d94ffe49aad:0xb9cc7ce052b8a9a1!8m2!3d32.635936!4d-86.035059?hl=en" class="fancy-button bg2"><span>Visit Us</span></a>
+        <a href="#contact" class="fancy-button bg1"><span>Contact Us</span></a>
+      </div>
+      
+    </div>
+  </div>
+</section>
+{{ range  where .Data.Pages.ByWeight "Section" "home" }}
+    {{ .Render .Params.layout }}
+{{ end }}
+{{ block "instafeed" . }}{{ partial "site/instafeed.html" . }}{{ end }}
+{{ block "map" . }}{{ partial "site/map.html" . }}{{ end }}
+{{ block "contact" . }}{{ partial "site/contact.html" . }}{{ end }}
+{{ end }}
