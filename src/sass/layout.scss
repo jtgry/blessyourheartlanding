@@ -29,6 +29,9 @@
       height: 50vh;
       width: auto;
       margin-bottom: $spacing-unit / 2;
+      @media (max-width: $phone) {
+        margin-bottom: $spacing-unit / 4;
+      }
     }
     .home-banner-title{
       font-size: 4rem;
