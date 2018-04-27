@@ -143,7 +143,6 @@ gulp.task('images', () => {
     return gulp.src('src/images/**/*.{png,jpg,jpeg,gif,svg,webp,ico}')
         .pipe($.newer('static/images'))
         .pipe($.print())
-        .pipe($.imagemin())
         .pipe(gulp.dest('static/images'));
 });
 gulp.task('images-resize-small', () => {
