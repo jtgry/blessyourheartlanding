@@ -5,6 +5,9 @@ title = "Bless Your Heart"
 enableRobotsTXT = true
 disableAliases = true
 
+googleAnalytics = "UA-118254944-1"
+
+
 [params]
   description = "We are a mother daughter team that is passionate about making the vision for your home come true!"
 
