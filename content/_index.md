@@ -2,6 +2,6 @@
 title: "Welcome"
 draft: false
 image: "images/interior1.jpg"
-description: "We are a mother daughter team"
+description: "We are a mother daughter team that is passionate about making the vision for your home come true!"
 ---
-Welcome to our Store!
+We are a mother daughter team that is passionate about making the vision for your home come true!
