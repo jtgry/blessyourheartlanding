@@ -89,6 +89,9 @@
       box-shadow: $box-shadow;
       text-align: center;
       padding: $spacing-unit / 2 0;
+      @media (max-width: $phone) {
+        text-align: left;
+      }
       h2{
         font-size: 4rem;
         margin: 0;
