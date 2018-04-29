@@ -6,7 +6,7 @@ var feed = new Instafeed({
   template: '<a class="block-instagram" style="background-image: url({{image}});" href="{{link}}"></a>',
   sortBy: 'most-recent',
   limit: '8',
-  resolution: 'standard_resolution'
+  resolution: 'low_resolution'
 });
 feed.run();
 
