@@ -1,9 +1,9 @@
 ---
-title: "Welcome"
+title: "Bless Your Heart"
 draft: false
 weight: 1
 type: "block"
-layout: "block-feature"
+layout: "block-text"
 alignment: "right"
 image: "images/flowers.jpg"
 button: "/about/"

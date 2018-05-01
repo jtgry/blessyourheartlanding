@@ -10,6 +10,9 @@ googleAnalytics = "UA-118254944-1"
 
 [params]
   description = "We are a mother daughter team specializing in farmhouse and french country decor and is passionate about making the vision for your home come true!"
+  facebook = "https://www.facebook.com/blessyourheartofal/"
+  instagram = "https://www.instagram.com/blessyourheartofal/"
+  pinterest = "https://www.pinterest.com/blessyourhearto/"
 
 # add redirects/headers
 [outputs]
