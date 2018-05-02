@@ -162,6 +162,11 @@
   background-size: cover;
   padding: $spacing-unit 0;
   margin: $spacing-unit 5%;
+  @media (max-width: $phone) {
+    min-height: 20vh;
+    max-height: 20vh;
+    height: 20vh;
+  }
   }
 .block-instagram-feed{
   width: 100%;
